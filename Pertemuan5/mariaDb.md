@@ -16,6 +16,7 @@
     - Reload privilege tables = Y
 
 ![alt text](image-2.png)
+
 8. create DB website company profile
     - login sebagai root
     - create db nama dbcompro_NIM => CREATE DATABASE dbcompro_NIM;
@@ -30,5 +31,5 @@
     - Flush privileges => FLUSH PRIVILEGES;
     - exit;
     - login sebagai usrcompro_NIM dan cek apakah bisa akses ke DB yang baru dibuat
-    
+
 ![alt text](image-5.png)
