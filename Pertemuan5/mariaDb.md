@@ -14,15 +14,21 @@
     - Disallow root login remotely = Y
     - Remove test database and access to it = Y
     - Reload privilege tables = Y
+
 ![alt text](image-2.png)
 8. create DB website company profile
     - login sebagai root
     - create db nama dbcompro_NIM => CREATE DATABASE dbcompro_NIM;
+
 ![alt text](image-3.png)
+
     - create user dengan nama = usrcompro_NIM dan password = [PASSWORD] => CREATE USER 'usrcompro_NIM'@'localhost' IDENTIFIED BY '[PASSWORD]';
+
 ![alt text](image-4.png)
+
     - Grant user akses ke DB yang baru dibuat => GRANT ALL PRIVILEGES ON dbcompro_NIM.* TO 'usrcompro_NIM'@'localhost';
     - Flush privileges => FLUSH PRIVILEGES;
     - exit;
     - login sebagai usrcompro_NIM dan cek apakah bisa akses ke DB yang baru dibuat
+    
 ![alt text](image-5.png)
